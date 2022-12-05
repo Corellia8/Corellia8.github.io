@@ -1,25 +1,48 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>江与夏</title>
+  <title>JR</title>
   
-  <subtitle>世间所有的相遇都是久别重逢~</subtitle>
+  <subtitle>人生若只如初见</subtitle>
   <link href="https://jrdit.github.io/atom.xml" rel="self"/>
   
   <link href="https://jrdit.github.io/"/>
-  <updated>2022-11-01T03:49:10.494Z</updated>
+  <updated>2022-12-02T07:01:40.378Z</updated>
   <id>https://jrdit.github.io/</id>
   
   <author>
-    <name>江与夏</name>
+    <name>JR</name>
     
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>我的第一篇博客</title>
+    <link href="https://jrdit.github.io/2022/12/02/wo-de-di-yi-pian-bo-ke"/>
+    <id>https://jrdit.github.io/2022/12/02/wo-de-di-yi-pian-bo-ke</id>
+    <published>2022-12-02T02:47:21.000Z</published>
+    <updated>2022-12-02T07:01:40.378Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;Day3-列表&quot;&gt;Day3-列表&lt;/h2&gt;
+&lt;h3 id=&quot;一、列表list&quot;&gt;一、列表list&lt;/h3&gt;
+&lt;h4</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
     <title>Hello World</title>
-    <link href="https://jrdit.github.io/2022/11/01/hello-world/"/>
-    <id>https://jrdit.github.io/2022/11/01/hello-world/</id>
+    <link href="https://jrdit.github.io/2022/11/01/hello-world"/>
+    <id>https://jrdit.github.io/2022/11/01/hello-world</id>
     <published>2022-11-01T03:49:10.494Z</published>
     <updated>2022-11-01T03:49:10.494Z</updated>
     
