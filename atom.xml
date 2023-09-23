@@ -6,7 +6,7 @@
   <link href="https://jrdit.github.io/atom.xml" rel="self"/>
   
   <link href="https://jrdit.github.io/"/>
-  <updated>2022-12-08T08:20:16.000Z</updated>
+  <updated>2023-09-23T07:13:50.465Z</updated>
   <id>https://jrdit.github.io/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="https://jrdit.github.io/2022/12/02/wo-de-di-yi-pian-bo-ke/"/>
     <id>https://jrdit.github.io/2022/12/02/wo-de-di-yi-pian-bo-ke/</id>
     <published>2022-12-02T02:47:21.000Z</published>
-    <updated>2022-12-08T08:20:16.000Z</updated>
+    <updated>2023-09-23T07:13:50.465Z</updated>
     
     
       
@@ -36,8 +36,12 @@
     
     
     
+    <category term="Python" scheme="https://jrdit.github.io/categories/Python/"/>
+    
     
     <category term="Python" scheme="https://jrdit.github.io/tags/Python/"/>
+    
+    <category term="学习" scheme="https://jrdit.github.io/tags/%E5%AD%A6%E4%B9%A0/"/>
     
   </entry>
   
@@ -46,7 +50,7 @@
     <link href="https://jrdit.github.io/2022/01/02/hello-world/"/>
     <id>https://jrdit.github.io/2022/01/02/hello-world/</id>
     <published>2022-01-02T02:47:21.000Z</published>
-    <updated>2022-12-08T03:32:24.000Z</updated>
+    <updated>2023-09-23T07:13:36.490Z</updated>
     
     
       
@@ -59,8 +63,12 @@
     
     
     
+    <category term="Hexo" scheme="https://jrdit.github.io/categories/Hexo/"/>
+    
     
     <category term="Hexo" scheme="https://jrdit.github.io/tags/Hexo/"/>
+    
+    <category term="教程" scheme="https://jrdit.github.io/tags/%E6%95%99%E7%A8%8B/"/>
     
   </entry>
   
