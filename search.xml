@@ -4,6 +4,33 @@
   
     
     <entry>
+      <title>AI大模型 - 现状与未来</title>
+      <link href="//2023/09/23/ai-da-mo-xing-xian-zhuang-yu-wei-lai/"/>
+      <url>//2023/09/23/ai-da-mo-xing-xian-zhuang-yu-wei-lai/</url>
+      
+        <content type="html"><![CDATA[<h1>AI大模型 - 现状与未来</h1><h2 id="什么是AI大模型">什么是AI大模型</h2><p>AI大模型(Large Language Model)指的是具有数百亿参数的大规模深度学习自然语言模型,通过“预训练-微调”的方式进行建模,能够对语言进行深层理解,具有生成长文本的能力。<br>代表模型有 OpenAI 的 GPT-3、谷歌的 LaMDA、百度的 ERNIE 等。</p><h2 id="AI大模型的现状">AI大模型的现状</h2><ul><li>模型规模不断扩大,参数数量达到千亿级,计算能力需求巨大。</li><li>支持多模态输入,不仅文本,也能处理图像、视频、语音等信息。</li><li>应用范围不断扩大,从文本生成到代码生成、图像生成、智能对话等。</li><li>普通用户可通过 API 接口调用,降低使用门槛。</li><li>相关公司纷纷推出商业化服务,AI 创业数量激增。</li></ul><h2 id="AI大模型的发展前景">AI大模型的发展前景</h2><ul><li>模型会继续增大规模,演化为万亿参数级。计算力的进步是基础。</li><li>多语言支持会增强,从英语扩展到其他语言。</li><li>模型会变得更加专业,在特定领域的表现更强。</li><li>理解能力和逻辑能力将得到提高,变得更加智能。</li><li>创意能力可能得到一定增强,如生成图像、音乐等创作。</li><li>需要解决可解释性欠佳、偏见、安全性等问题。</li><li>监管会更加完善,确保其健康发展。</li></ul><h2 id="总结">总结</h2><p>AI大模型正在重塑语言智能领域,其发展前景广阔但也面临挑战。模型的演化路径值得持续关注,它们将以什么形式影响人类社会也令人充满兴趣。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Artificial intelligence </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> AI </tag>
+            
+            <tag> 人工智能 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>我的第一篇博客</title>
       <link href="//2022/12/02/wo-de-di-yi-pian-bo-ke/"/>
       <url>//2022/12/02/wo-de-di-yi-pian-bo-ke/</url>
