@@ -59,6 +59,8 @@ AI大模型(Large Language Model)指的是具有数百亿参数的大规模深�
 
 
     
+        <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/jrdit/jrdit.github.io/css/reward.css">
+    
 
 
 
@@ -476,6 +478,39 @@ AI大模型(Large Language Model)指的是具有数百亿参数的大规模深�
                 </div>
             </div>
             
+                <div id="reward">
+    <a href="#rewardModal" class="reward-link modal-trigger btn-floating btn-medium waves-effect waves-light red">赏</a>
+
+    <!-- Modal Structure -->
+    <div id="rewardModal" class="modal">
+        <div class="modal-content">
+            <a class="close modal-close"><i class="fas fa-times"></i></a>
+            <h4 class="reward-title">你的赏识是我前进的动力</h4>
+            <div class="reward-content">
+                <div class="reward-tabs">
+                    <ul class="tabs row">
+                        <li class="tab col s6 alipay-tab waves-effect waves-light"><a href="#alipay">支付宝</a></li>
+                        <li class="tab col s6 wechat-tab waves-effect waves-light"><a href="#wechat">微 信</a></li>
+                    </ul>
+                    <div id="alipay">
+                        <img src="https://cdn.jsdelivr.net/gh/jrdit/jrdit.github.io/medias/reward/alipay.jpg" class="reward-img" alt="支付宝打赏二维码">
+                    </div>
+                    <div id="wechat">
+                        <img src="https://cdn.jsdelivr.net/gh/jrdit/jrdit.github.io/medias/reward/wechat.png" class="reward-img" alt="微信打赏二维码">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    $(function () {
+        $('.tabs').tabs();
+    });
+</script>
+
+            
         </div>
     </div>
 
@@ -740,7 +775,7 @@ AI大模型(Large Language Model)指的是具有数百亿参数的大规模深�
         el: '#vcomments',
         appId: 'wxkpigYLrdI9vxC8JyZ7eC2p-MdYXbMMI',
         appKey: 'ELlysIYFxo4YUu3w1XRTRYt4',
-        serverURLs: 'https://wxkpigyl.api.lncldglobal.com',
+        serverURLs: 'https://wxkpigYLrdI9vxC8JyZ7eC2p-MdYXbMMI',
         notify: 'false' === 'true',
         verify: 'false' === 'true',
         visitor: 'true' === 'true',
@@ -1091,7 +1126,7 @@ AI大模型(Large Language Model)指的是具有数百亿参数的大规模深�
         <div class="col s12 m8 l8 copy-right">
             Copyright&nbsp;&copy;
             
-                <span id="year">2008-2023</span>
+                <span id="year">2008-2024</span>
             
             <a href="/about" target="_blank">Jrin</a>
             |&nbsp;Powered by&nbsp;<a href="https://hexo.io/" target="_blank">Hexo</a>
@@ -1380,10 +1415,6 @@ $(function () {
     <!-- 鼠标星星特效 -->
     
 
-     
-        <script src="https://ssl.captcha.qq.com/TCaptcha.js"></script>
-        <script src="https://cdn.jsdelivr.net/gh/jrdit/jrdit.github.io/libs/others/TencentCaptcha.js"></script>
-        <button id="TencentCaptcha" data-appid="196257897" data-cbfn="callback" type="button" hidden></button>
     
 
     <!-- Baidu Analytics -->
