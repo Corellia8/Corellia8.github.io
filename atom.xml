@@ -6,7 +6,7 @@
   <link href="https://jrdit.github.io/atom.xml" rel="self"/>
   
   <link href="https://jrdit.github.io/"/>
-  <updated>2024-03-23T10:31:49.959Z</updated>
+  <updated>2024-05-10T13:20:37.125Z</updated>
   <id>https://jrdit.github.io/</id>
   
   <author>
@@ -15,6 +15,62 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>营销费用审计</title>
+    <link href="https://jrdit.github.io/2024/05/10/ying-xiao-fei-yong-shen-ji/"/>
+    <id>https://jrdit.github.io/2024/05/10/ying-xiao-fei-yong-shen-ji/</id>
+    <published>2024-05-10T13:12:21.000Z</published>
+    <updated>2024-05-10T13:20:37.125Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1&gt;营销费用审计关注要点&lt;/h1&gt;
+&lt;p&gt;营销费用是指项目销售推广、物料包装、以及与营销相关的各类服务、促销而发生的一切费用。企业为了促进销售，增加销售收入，销售人员往往是绞尽脑汁，想出各种各样的营销与促销手段，由此就带来了名目繁多的营销费用。营销费用一般占到一个项目的3%，</summary>
+        
+      
+    
+    
+    
+    <category term="Audit" scheme="https://jrdit.github.io/categories/Audit/"/>
+    
+    
+    <category term="审计" scheme="https://jrdit.github.io/tags/%E5%AE%A1%E8%AE%A1/"/>
+    
+    <category term="营销费用" scheme="https://jrdit.github.io/tags/%E8%90%A5%E9%94%80%E8%B4%B9%E7%94%A8/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>营销费用审计思路</title>
+    <link href="https://jrdit.github.io/2024/05/10/yan-fa-fei-yong-shen-ji/"/>
+    <id>https://jrdit.github.io/2024/05/10/yan-fa-fei-yong-shen-ji/</id>
+    <published>2024-05-10T13:12:21.000Z</published>
+    <updated>2024-05-10T13:32:25.306Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1&gt;研发费用审计思路&lt;/h1&gt;
+&lt;h2</summary>
+        
+      
+    
+    
+    
+    <category term="Audit" scheme="https://jrdit.github.io/categories/Audit/"/>
+    
+    
+    <category term="审计" scheme="https://jrdit.github.io/tags/%E5%AE%A1%E8%AE%A1/"/>
+    
+    <category term="研发费用" scheme="https://jrdit.github.io/tags/%E7%A0%94%E5%8F%91%E8%B4%B9%E7%94%A8/"/>
+    
+  </entry>
   
   <entry>
     <title>教你看财报——应收票据</title>
@@ -136,36 +192,6 @@
   </entry>
   
   <entry>
-    <title>财经之旅：Jrin的审计世界</title>
-    <link href="https://jrdit.github.io/2022/12/02/cai-jing-zhi-lu-jrin-de-shen-ji-shi-jie/"/>
-    <id>https://jrdit.github.io/2022/12/02/cai-jing-zhi-lu-jrin-de-shen-ji-shi-jie/</id>
-    <published>2022-12-02T02:47:21.000Z</published>
-    <updated>2024-03-17T09:59:53.931Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;在数字的海洋和账本的森林中，我是一名探险者Jrin。揭开数字背后的故事，确保每一分钱的流向都清晰透明。在这个由数字构建的世界里，我建立了这个Blog，作为分享、交流和学习的园地。&lt;/p&gt;
-&lt;h2</summary>
-        
-      
-    
-    
-    
-    <category term="Python" scheme="https://jrdit.github.io/categories/Python/"/>
-    
-    
-    <category term="财务" scheme="https://jrdit.github.io/tags/%E8%B4%A2%E5%8A%A1/"/>
-    
-    <category term="审计" scheme="https://jrdit.github.io/tags/%E5%AE%A1%E8%AE%A1/"/>
-    
-    <category term="注册会计师" scheme="https://jrdit.github.io/tags/%E6%B3%A8%E5%86%8C%E4%BC%9A%E8%AE%A1%E5%B8%88/"/>
-    
-  </entry>
-  
-  <entry>
     <title>内部审计五大流程与方法</title>
     <link href="https://jrdit.github.io/2022/12/02/nei-bu-shen-ji-wu-da-liu-cheng-yu-fang-fa/"/>
     <id>https://jrdit.github.io/2022/12/02/nei-bu-shen-ji-wu-da-liu-cheng-yu-fang-fa/</id>
@@ -192,6 +218,36 @@
     <category term="学习" scheme="https://jrdit.github.io/tags/%E5%AD%A6%E4%B9%A0/"/>
     
     <category term="内部审计" scheme="https://jrdit.github.io/tags/%E5%86%85%E9%83%A8%E5%AE%A1%E8%AE%A1/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>财经之旅：Jrin的审计世界</title>
+    <link href="https://jrdit.github.io/2022/12/02/cai-jing-zhi-lu-jrin-de-shen-ji-shi-jie/"/>
+    <id>https://jrdit.github.io/2022/12/02/cai-jing-zhi-lu-jrin-de-shen-ji-shi-jie/</id>
+    <published>2022-12-02T02:47:21.000Z</published>
+    <updated>2024-03-17T09:59:53.931Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;在数字的海洋和账本的森林中，我是一名探险者Jrin。揭开数字背后的故事，确保每一分钱的流向都清晰透明。在这个由数字构建的世界里，我建立了这个Blog，作为分享、交流和学习的园地。&lt;/p&gt;
+&lt;h2</summary>
+        
+      
+    
+    
+    
+    <category term="Python" scheme="https://jrdit.github.io/categories/Python/"/>
+    
+    
+    <category term="审计" scheme="https://jrdit.github.io/tags/%E5%AE%A1%E8%AE%A1/"/>
+    
+    <category term="财务" scheme="https://jrdit.github.io/tags/%E8%B4%A2%E5%8A%A1/"/>
+    
+    <category term="注册会计师" scheme="https://jrdit.github.io/tags/%E6%B3%A8%E5%86%8C%E4%BC%9A%E8%AE%A1%E5%B8%88/"/>
     
   </entry>
   

@@ -4,15 +4,11 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="Python学习-列表, Jrin の Blog">
-    <meta name="description" content="Day3-列表
-一、列表list
-1.概述
-变量：使用变量存储数据，但是，缺点:一个变量每次只能存储一个数据
-思考：如果一次性存储多个数据，怎么做？
-解决：采用列表
-作用：列表相当于是一个容器，可以同时存储多个数据
-本质：列表是一种有序的集">
+    <meta name="keywords" content="营销费用审计思路, Jrin の Blog">
+    <meta name="description" content="研发费用审计思路
+一、审计关注要点
+研发费用审计的首要任务是获取企业全年的研发费用明细，这包括工资、奖金、技术顾问费用、物料领用、技术服务费、商标专利费、股份支付等，以及资本化情况。不同行业和企业可能会在这些维度上有不同的侧重点。
+明细分析">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <meta name="renderer" content="webkit|ie-stand|ie-comp">
@@ -35,7 +31,7 @@
 </script>
 
 
-    <title>Python学习-列表 | Jrin の Blog</title>
+    <title>营销费用审计思路 | Jrin の Blog</title>
     <link rel="icon" type="image/png" href="https://cdn.jsdelivr.net/gh/jrdit/jrdit.github.io/favicon.png">
     
 
@@ -270,12 +266,12 @@
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('https://cdn.jsdelivr.net/gh/jrdit/jrdit.github.io/medias/featureimages/0.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('https://cdn.jsdelivr.net/gh/jrdit/jrdit.github.io/medias/featureimages/12.jpg')">
     <div class="container" style="right: 0px;left: 0px;">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
-                    <h1 class="description center-align post-title">Python学习-列表</h1>
+                    <h1 class="description center-align post-title">营销费用审计思路</h1>
                 </div>
             </div>
         </div>
@@ -299,12 +295,12 @@
                     
                     <div class="article-tag">
                         
-                            <a href="/tags/Python/">
-                                <span class="chip bg-color">Python</span>
+                            <a href="/tags/%E5%AE%A1%E8%AE%A1/">
+                                <span class="chip bg-color">审计</span>
                             </a>
                         
-                            <a href="/tags/%E5%AD%A6%E4%B9%A0/">
-                                <span class="chip bg-color">学习</span>
+                            <a href="/tags/%E7%A0%94%E5%8F%91%E8%B4%B9%E7%94%A8/">
+                                <span class="chip bg-color">研发费用</span>
                             </a>
                         
                     </div>
@@ -315,8 +311,8 @@
                     <div class="post-cate">
                         <i class="fas fa-bookmark fa-fw icon-category"></i>
                         
-                            <a href="/categories/Python/" class="post-category">
-                                Python
+                            <a href="/categories/Audit/" class="post-category">
+                                Audit
                             </a>
                         
                     </div>
@@ -328,21 +324,21 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-minus fa-fw"></i>发布日期:&nbsp;&nbsp;
-                    2022-12-02
+                    2024-05-10
                 </div>
                 
 
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-check fa-fw"></i>更新日期:&nbsp;&nbsp;
-                    2024-03-17
+                    2024-05-10
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    2.5k
+                    1.6k
                 </div>
                 
 
@@ -367,316 +363,143 @@
 
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <h2 id="Day3-列表">Day3-列表</h2>
-<h3 id="一、列表list">一、列表list</h3>
-<h4 id="1-概述">1.概述</h4>
-<p>变量：使用变量存储数据，但是，缺点:一个变量每次只能存储一个数据<br>
-思考：如果一次性存储多个数据，怎么做？</p>
-<p>解决：采用列表</p>
-<p>作用：列表相当于是一个容器，可以同时存储多个数据</p>
-<p>本质：列表是一种有序的集合</p>
-<p>说明：有序指的就是有顺序【数据的存放的顺序和底层存储的顺序是相同的】</p>
-<p>代码演示：</p>
-<pre class="line-numbers language-Python" data-language="Python"><code class="language-Python">#需求：存储5个人的年龄
-age1 = 18
-age2 = 20
-age3 = 90
-...
-#list
-#在栈空间中有一个变量【列表的名字】
-#变量指向了内存堆空间中的一个列表，列表中存储了5个变量
-age_list = [10, 13, 16, 39, 20]<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
-<h4 id="2-创建列表">2.创建列表</h4>
-<p>语法：变量名 = 列表</p>
-<p>列表名称 = [数据1，数据2, …]</p>
-<p>说明：使用[ ]表示创建列表</p>
-<p>列表中存储的数据被称为元素</p>
-<p>列表中的元素被从头到尾自动进行了编号，编号从0开始，这个编号被称为索引，角标或者下标</p>
-<p>​索引的取值范围：0~元素的个数 -1【列表的长度 -1】</p>
-<p>超过索引的范围：列表越界</p>
-<p>代码演示：</p>
-<pre class="line-numbers language-Python" data-language="Python"><code class="language-Python">#语法：列表名【标识符】 = [元素1，元素2.。。。。]
-#1.创建列表
-#1.1创建一个空列表
-
-#1.2创建一个带有元素的列表
-
-#2.思考问题：列表中能不能存储不同类型的数据？
-list3 = ['abc',10,3.14,True]
-print(list3)
-
-#注意：将需要存储的数据放到列表中，不需要考虑列表的大小，如果数据量很大的情况，在进行存储数据的时候，列表底层自动扩容<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
-<h4 id="3-列表元素的访问">3.列表元素的访问</h4>
-<p>访问方式：通过索引访问列表中的元素【有序，索引：决定了元素在内存中的位置】</p>
-<h5 id="3-1获取元素">3.1获取元素</h5>
-<p>语法：列表名[索引]</p>
-<p>代码演示：</p>
-<pre class="line-numbers language-Python" data-language="Python"><code class="language-Python">#元素的访问
-#创建列表
-list1 = [5,51,6,76,98,3]
-
-#需求：获取索引为3的位置上的元素<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span></span></code></pre>
-<h5 id="3-2替换元素">3.2替换元素</h5>
-<p>语法：列表名[索引] = 值</p>
-<p>注意：列表中存储的是其实是变量，所以可以随时修改值</p>
-<p>代码演示：</p>
-<pre class="line-numbers language-Python" data-language="Python"><code class="language-Python">#需求：将索引为1位置上的元素替换为100
-
-#问题：超过索引的取值范围，则会出现索引越界的错误
-#解决办法：检查列表索引的取值范围
-#print(list1[6])   #IndexError: list index out of range   索引越界<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span></span></code></pre>
-<h5 id="3-3-遍历列表">3.3 遍历列表</h5>
-<pre class="line-numbers language-python" data-language="python"><code class="language-python"><span class="token comment">#列表的遍历</span>
-list2 <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token number">23</span><span class="token punctuation">,</span><span class="token number">54</span><span class="token punctuation">,</span><span class="token number">6</span><span class="token punctuation">,</span><span class="token number">45</span><span class="token punctuation">,</span><span class="token number">56</span><span class="token punctuation">]</span>
-<span class="token comment">#1.直接操作的是元素</span>
-
-<span class="token comment">#2.通过索引的方式操作元素</span>
-<span class="token comment">#思路：使用列表生成器生成一个和索引有关的列表 0~len(list2) -1</span>
-
-
-<span class="token comment">#3.同时遍历索引和元素</span>
-<span class="token comment">#enumerate  枚举【类似于一个容器】</span>
-<span class="token comment">#index,n1-----索引，元素值</span>
-<span class="token keyword">for</span> index<span class="token punctuation">,</span>n1 <span class="token keyword">in</span> <span class="token builtin">enumerate</span><span class="token punctuation">(</span>list2<span class="token punctuation">)</span><span class="token punctuation">:</span>
- 	<span class="token keyword">print</span><span class="token punctuation">(</span>index<span class="token punctuation">,</span>n1<span class="token punctuation">)</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
-<h4 id="4-列表的操作">4.列表的操作</h4>
-<h5 id="1-1列表元素组合">1.1列表元素组合</h5>
-<p>代码演示：</p>
-<pre class="line-numbers language-python" data-language="python"><code class="language-python"><span class="token comment">#列表组合【合并】</span>
-<span class="token comment">#使用加号</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>
-<h5 id="1-2列表元素重复">1.2列表元素重复</h5>
-<p>代码演示：</p>
-<pre class="line-numbers language-python" data-language="python"><code class="language-python"><span class="token comment">#列表元素的重复</span>
-<span class="token comment">#使用乘号</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>
-<h5 id="1-3判断元素是否在列表中">1.3判断元素是否在列表中</h5>
-<p>代码演示：</p>
-<pre class="line-numbers language-python" data-language="python"><code class="language-python"><span class="token comment">#判断指定元素是否在指定列表中</span>
-<span class="token comment">#成员运算符   in  not in</span>
-<span class="token triple-quoted-string string">"""
-工作原理：使用指定数据在列表中和每个元素进行比对，只要元素内容相等，则说明存在的
-返回：True或者False
-"""</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
-<h5 id="1-4列表截取【切片】">1.4列表截取【切片】</h5>
-<p>代码演示：</p>
-<pre class="line-numbers language-python" data-language="python"><code class="language-python"><span class="token comment">#列表的截取</span>
-list7 <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token number">23</span><span class="token punctuation">,</span><span class="token number">34</span><span class="token punctuation">,</span><span class="token number">6</span><span class="token punctuation">,</span><span class="token number">57</span><span class="token punctuation">,</span><span class="token number">6878</span><span class="token punctuation">,</span><span class="token number">3</span><span class="token punctuation">,</span><span class="token number">5</span><span class="token punctuation">,</span><span class="token number">4</span><span class="token punctuation">,</span><span class="token number">76</span><span class="token punctuation">,</span><span class="token number">7</span><span class="token punctuation">]</span>
-<span class="token keyword">print</span><span class="token punctuation">(</span>list7<span class="token punctuation">[</span><span class="token number">4</span><span class="token punctuation">]</span><span class="token punctuation">)</span>
-
-<span class="token comment">#使用冒号:</span>
-<span class="token comment">#截取指定的区间：列表名[开始索引：结束索引],特点：包头不包尾    前闭后开区间</span>
-
-<span class="token comment">#从开头截取到指定索引，特点：不包含指定的索引</span>
-<span class="token keyword">print</span><span class="token punctuation">(</span>list7<span class="token punctuation">[</span><span class="token number">0</span><span class="token punctuation">:</span><span class="token number">6</span><span class="token punctuation">]</span><span class="token punctuation">)</span>
-<span class="token keyword">print</span><span class="token punctuation">(</span>list7<span class="token punctuation">[</span><span class="token punctuation">:</span><span class="token number">6</span><span class="token punctuation">]</span><span class="token punctuation">)</span>
-
-<span class="token comment">#从指定索引截取到结尾</span>
-<span class="token comment">#注意：因为包头不包尾，所以如果要取到最后一个元素，可以超过索引的范围，不会报错</span>
-<span class="token keyword">print</span><span class="token punctuation">(</span>list7<span class="token punctuation">[</span><span class="token number">4</span><span class="token punctuation">:</span><span class="token number">20</span><span class="token punctuation">]</span><span class="token punctuation">)</span>
-<span class="token keyword">print</span><span class="token punctuation">(</span>list7<span class="token punctuation">[</span><span class="token number">4</span><span class="token punctuation">:</span><span class="token punctuation">]</span><span class="token punctuation">)</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
-<h4 id="5-列表的功能【掌握】">5.列表的功能【掌握】</h4>
-<p>Python内置的功能【函数】</p>
-<p>用法</p>
-<p>代码演示：</p>
-<pre class="line-numbers language-python" data-language="python"><code class="language-python"><span class="token comment">#功能的使用：列表名.功能的名字()</span>
-<span class="token comment">#一、添加元素</span>
-<span class="token comment">#1.append()   追加，在列表的末尾添加元素</span>
- <span class="token comment">#特点：是在原列表的基础上操作的,追加多个元素,不能直接追加，通过列表的形式追加，形成了一个二维列表</span>
-
-<span class="token comment">#2.extend()   扩展，在列表的末尾添加元素</span>
- <span class="token comment">#注意：append可以添加单个元素，但是extend不可以</span>
- <span class="token comment">#append添加多个元素的时候，以整个列表的形式添加进去；但是，extend只添加元素</span>
-
-<span class="token comment">#3.insert()   插入 ,在指定的索引处插入一个元素,后面的其他元素向后顺延</span>
- <span class="token comment">#insert(索引，插入的数据)</span>
- <span class="token comment">#需求：在索引为2的位置插入一个数字100</span>
-
-<span class="token comment">#二、删除元素</span>
-<span class="token comment">#1.pop()    弹出，移除列表中指定索引处的元素</span>
- list14 <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token number">1</span><span class="token punctuation">,</span><span class="token number">2</span><span class="token punctuation">,</span><span class="token number">3</span><span class="token punctuation">,</span><span class="token number">4</span><span class="token punctuation">,</span><span class="token number">5</span><span class="token punctuation">]</span>
- <span class="token keyword">print</span><span class="token punctuation">(</span>list14<span class="token punctuation">)</span>
- <span class="token comment">#注意1：默认移除的是最后一个元素</span>
- <span class="token comment">#注意2：返回的是被移除的数据</span>
-result14 <span class="token operator">=</span> list14<span class="token punctuation">.</span>pop<span class="token punctuation">(</span><span class="token punctuation">)</span>
-<span class="token keyword">print</span><span class="token punctuation">(</span>list14<span class="token punctuation">.</span>pop<span class="token punctuation">(</span><span class="token number">1</span><span class="token punctuation">)</span><span class="token punctuation">)</span>
-<span class="token keyword">print</span><span class="token punctuation">(</span>list14<span class="token punctuation">)</span>
-
-<span class="token comment">#2.remove()  移除   特点;移除指定元素在列表中匹配到的第一个元素【从左往右】</span>
- <span class="token comment">#remove(元素值)</span>
-
-<span class="token comment">#3.clear()      清除  清除列表中的所有的元素，原列表变为空列表</span>
-list16 <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token number">25</span><span class="token punctuation">,</span><span class="token number">36</span><span class="token punctuation">,</span><span class="token number">673</span><span class="token punctuation">]</span>
-<span class="token keyword">print</span><span class="token punctuation">(</span>list16<span class="token punctuation">)</span>
-list16<span class="token punctuation">.</span>clear<span class="token punctuation">(</span><span class="token punctuation">)</span>
-<span class="token keyword">print</span><span class="token punctuation">(</span>list16<span class="token punctuation">)</span>
-
-<span class="token comment">#三、获取</span>
-<span class="token comment">#直接使用功能：功能名称(列表)</span>
- <span class="token comment">#1.len() length,长度，获取列表的长度或者获取列表中元素的个数</span>
- <span class="token comment">#2.max()  获取列表中的最大值</span>
- <span class="token comment">#3.min() 获取列表中的最小值</span>
- <span class="token comment">#4.index()     索引,从列表中匹配到的第一个指定元素的索引值</span>
- <span class="token comment">#5.count()   个数，查找指定元素在列表中出现的次数 </span>
-
-<span class="token comment">#四、其他用法</span>
-<span class="token comment">#1.reverse() 反转，将列表中的元素倒序输出</span>
- <span class="token comment">#注意;在列表的内部进行反转，并没有生成新的列表</span>
-
-<span class="token comment">#2.sort()    排序,默认为升序排序   注意：在列表的内部操作</span>
-list20 <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token number">34</span><span class="token punctuation">,</span><span class="token number">65</span><span class="token punctuation">,</span><span class="token number">768</span><span class="token punctuation">,</span><span class="token number">23</span><span class="token punctuation">]</span>
- <span class="token comment">#列表名.sort()</span>
- <span class="token comment">#升序</span>
- <span class="token comment">#list20.sort()</span>
- <span class="token comment">#降序</span>
-list20<span class="token punctuation">.</span>sort<span class="token punctuation">(</span>reverse<span class="token operator">=</span><span class="token boolean">True</span><span class="token punctuation">)</span>
-
-<span class="token comment">#3.sorted()  排序,默认为升序排序   注意：生成一个新的列表</span>
- <span class="token comment">#升序</span>
- <span class="token comment">#降序</span>
-list23 <span class="token operator">=</span> <span class="token builtin">sorted</span><span class="token punctuation">(</span>list21<span class="token punctuation">,</span>reverse<span class="token operator">=</span><span class="token boolean">True</span><span class="token punctuation">)</span>
-
- <span class="token comment">#按照元素的长度来进行排序</span>
-list24 <span class="token operator">=</span> <span class="token builtin">sorted</span><span class="token punctuation">(</span>list00<span class="token punctuation">,</span>key<span class="token operator">=</span><span class="token builtin">len</span><span class="token punctuation">)</span>
-
-
-<span class="token comment">#课堂任务：remove()</span>
-list30 <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token number">23</span><span class="token punctuation">,</span><span class="token number">435</span><span class="token punctuation">,</span><span class="token number">5656</span><span class="token punctuation">,</span><span class="token number">6767</span><span class="token punctuation">,</span><span class="token number">435</span><span class="token punctuation">,</span><span class="token number">23</span><span class="token punctuation">,</span><span class="token number">23</span><span class="token punctuation">,</span><span class="token number">54</span><span class="token punctuation">,</span><span class="token number">64</span><span class="token punctuation">,</span><span class="token number">5676</span><span class="token punctuation">,</span><span class="token number">23</span><span class="token punctuation">,</span><span class="token number">23</span><span class="token punctuation">,</span><span class="token number">23</span><span class="token punctuation">]</span>
- <span class="token comment">#需求：移除列表中指定的所有的元素，例如：23</span>
-
-<span class="token number">1.</span>自定义一个数字列表，获取这个列表中的最小值
-
-<span class="token number">2.</span> 自定义一个数字列表，元素为<span class="token number">10</span>个 <span class="token punctuation">,</span>找出列表中第一大数连同下标一起输出
-
-<span class="token number">3.</span> 自定义一个数字列表，求列表中第二大数的下标
-
-<span class="token number">4.</span> 青年歌手大奖赛 <span class="token punctuation">,</span>有<span class="token number">10</span>个评委打分 <span class="token punctuation">,</span><span class="token punctuation">(</span>去掉一个最高分一个最低分<span class="token punctuation">)</span>求平均分
-
-<span class="token number">5.</span> 定义列表，存放<span class="token number">5</span>个学生的成绩【成绩值自己定】，获得成绩之和，平均成绩，最小成绩，最大成绩
-
-<span class="token number">6.</span> 将一个列表逆序输出<span class="token punctuation">,</span> 提示<span class="token punctuation">:</span> <span class="token builtin">range</span><span class="token punctuation">(</span><span class="token number">6</span><span class="token punctuation">,</span><span class="token operator">-</span><span class="token number">1</span><span class="token punctuation">,</span><span class="token operator">-</span><span class="token number">1</span><span class="token punctuation">)</span>
-<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
-<h4 id="6-二维列表">6.二维列表</h4>
-<p>一个列表的元素是一个列表</p>
-<p>代码演示：</p>
-<pre class="line-numbers language-python" data-language="python"><code class="language-python"><span class="token comment">#一维列表</span>
-list1 <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token number">1</span><span class="token punctuation">,</span><span class="token number">23</span><span class="token punctuation">,</span><span class="token number">5</span><span class="token punctuation">,</span><span class="token number">346</span><span class="token punctuation">]</span>
-
-<span class="token comment">#二维列表</span>
-list2 <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token punctuation">[</span><span class="token number">543</span><span class="token punctuation">,</span><span class="token number">54</span><span class="token punctuation">,</span><span class="token number">6</span><span class="token punctuation">]</span><span class="token punctuation">,</span><span class="token punctuation">[</span><span class="token number">234</span><span class="token punctuation">,</span><span class="token number">35</span><span class="token punctuation">,</span><span class="token number">46</span><span class="token punctuation">,</span><span class="token number">4565</span><span class="token punctuation">,</span><span class="token number">767</span><span class="token punctuation">]</span><span class="token punctuation">,</span><span class="token punctuation">[</span><span class="token number">65</span><span class="token punctuation">,</span><span class="token number">65</span><span class="token punctuation">,</span><span class="token number">65</span><span class="token punctuation">,</span><span class="token number">565</span><span class="token punctuation">]</span><span class="token punctuation">]</span>
-
-<span class="token comment">#处理二维列表：当做一个一维列表使用</span>
-subList <span class="token operator">=</span> list2<span class="token punctuation">[</span><span class="token number">1</span><span class="token punctuation">]</span>
-<span class="token keyword">print</span><span class="token punctuation">(</span>subList<span class="token punctuation">)</span>
-<span class="token keyword">print</span><span class="token punctuation">(</span>subList<span class="token punctuation">[</span><span class="token number">2</span><span class="token punctuation">]</span><span class="token punctuation">)</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
-<h3 id="二、布尔值和空值">二、布尔值和空值</h3>
-<h4 id="1-布尔值">1.布尔值</h4>
-<p>一个布尔类型的变量一般有两个值，True,False</p>
-<p>作用：用于分支和循环语句中作为条件判断</p>
-<p>代码演示：</p>
-<pre class="line-numbers language-Python" data-language="Python"><code class="language-Python">#Boolean
-b1 = True
-b2 = False
-
-#条件表达式结果布尔值
-print(4 5)
-print(1 and 0)<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
-<h4 id="2-空值">2.空值</h4>
-<p>Python中的一种特殊的数据类型，使用None表示</p>
-<p>区别与0：0是数字类型，None本身就是一种数据类型</p>
-<p>代码演示：</p>
-<pre class="line-numbers language-Python" data-language="Python"><code class="language-Python">#空值
-n = None
-print(n)   #None<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre>
-<h3 id="三、系统功能">三、系统功能</h3>
-<h4 id="1-数学功能">1.数学功能</h4>
-<p>abs(x):  absolute 求x的绝对值</p>
-<p>max(): 求最大值</p>
-<p>min()：求最小值</p>
-<p>pow(n,m):求一个数的多少次幂</p>
-<p>round(x，n):返回浮点数x的四舍五入值,如果给出n值，则表示舍入到小数点后几位</p>
-<p>代码演示：</p>
-<p>导入math模块，math.功能名()</p>
-<p>代码演示：</p>
-<pre class="line-numbers language-Python" data-language="Python"><code class="language-Python">#以下的功能必须导入math模块
-import  math
-
-#使用格式：math.功能名称
-
-#19向上取整
-print(math.ceil(18.1))
-print(math.ceil(18.9))
-
-#18向下取整
-print(math.floor(18.1))
-print(math.floor(18.9))
-
-#求平方
-print(pow(3,2))
-#开平方【掌握】
-print(math.sqrt(9))
-
-#获取整数部分和小数部分，得到的结果为元组
-print(math.modf(22.3))<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
-<h4 id="2-随机数random【掌握】">2.随机数random【掌握】</h4>
-<p>代码演示：</p>
-<pre class="line-numbers language-Python" data-language="Python"><code class="language-Python">import random
-
-#1.random.choice(列表)  从指定列表中随机选择一个元素出来
-#指定列表
-
-#列表生成器
-
-#使用字符串，相当于使用了元素为字母的列表
-
-#需求;产生一个4~10之间的随机数
-
-#2.random.randrange(start,end,step)
-"""
-start:指定范围的开始值，包含在范围内，默认为0
-end:指定范围的结束值，不包含在范围内
-step:步长，指定的递增基数，默认为1
-"""
-
-#需求1：从1~100之间选取一个奇数随机数
-print(random.choice(range(1,100,2)))
-print(random.randrange(1,100,2))
-#需求2：生成一个0~99之间的随机数
-print(random.randrange(100))
-
-#3.random.random()   获取0~1之间的随机数，结果为浮点型
-n = random.random()
-#需求：保留小数点后两位
-print(round(n,2))
-
-#需求1：获取4~10之间的随机数
-n1 = random.random() * 6 + 4
-"""
-[0,1] * 6 ---------[0,6]
-[0,6] + 4 --------[4,10]
-"""
-
-#4.将列表中的元素进行随机排序【了解】
-list1 = [23,5435,4,6]
-random.shuffle(list1)
-print(list1)
-
-#5.随机生成一个实数，它在[3,9]范围内，结果为浮点型
-print(random.uniform(3,9))
-
-#需求：求50~100之间的随机数，包括浮点数
-n2 = random.uniform(50,100)
-<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
-<hr>
-<p>7.完成猜拳游戏</p>
-<hr>
-<p>请输入你的选择:</p>
+                <h1>研发费用审计思路</h1>
+<h2 id="一、审计关注要点">一、审计关注要点</h2>
+<p>研发费用审计的首要任务是获取企业全年的研发费用明细，这包括工资、奖金、技术顾问费用、物料领用、技术服务费、商标专利费、股份支付等，以及资本化情况。不同行业和企业可能会在这些维度上有不同的侧重点。</p>
+<h3 id="明细分析">明细分析</h3>
+<ul>
+<li><strong>二级分类透视</strong>：通过这种透视方法，可以快速识别企业研发的侧重点。</li>
+<li><strong>访谈问卷设计</strong>：基于明细分析的结果，设计更具针对性的访谈问卷。</li>
+</ul>
+<h2 id="二、访谈准备">二、访谈准备</h2>
+<p>访谈是深入了解企业研发活动的关键步骤，需要精心准备。</p>
+<h3 id="访谈问卷设计">访谈问卷设计</h3>
+<ul>
+<li><strong>重点</strong>：聚焦于研发活动的实质内容，而非仅仅关注审批流程和单据。</li>
+<li><strong>访谈对象</strong>：通常是研发部负责人，他们可能不直接参与日常审批流程。</li>
+</ul>
+<h3 id="访谈问题示例">访谈问题示例</h3>
+<ul>
+<li>技术顾问支出的具体情况，包括为何产生、技术顾问的参与环节、管理方式、成本考量等。</li>
+</ul>
+<h2 id="三、访谈问卷维度">三、访谈问卷维度</h2>
+<p>问卷设计应涵盖以下维度：</p>
+<h3 id="工资奖金">工资奖金</h3>
+<ul>
+<li><strong>组织架构</strong>：了解研发部门的组织架构和职责分工。</li>
+<li><strong>职位要求</strong>：询问研发部的职位设置，每个职位的职责与要求。</li>
+<li><strong>考勤打卡</strong>：了解研发人员的考勤制度，评估其合理性。</li>
+<li><strong>绩效奖金</strong>：探讨绩效奖金与研发成果的关联性。</li>
+</ul>
+<h3 id="折旧与摊销">折旧与摊销</h3>
+<ul>
+<li><strong>设备使用</strong>：询问研发部门是否有专用设备，以及设备是否与生产共用。</li>
+<li><strong>分摊规则</strong>：了解折旧摊销在研发费用与生产成本中的分摊方式。</li>
+</ul>
+<h3 id="技术服务费">技术服务费</h3>
+<ul>
+<li><strong>服务供应商</strong>：识别主要的技术服务供应商，了解近两年的变动情况。</li>
+<li><strong>采购流程</strong>：询问技术服务采购的比价记录和审批流程。</li>
+</ul>
+<h3 id="物料领用">物料领用</h3>
+<ul>
+<li><strong>物料种类</strong>：了解研发领料的物料种类及与生产领料的区别。</li>
+<li><strong>领料规模</strong>：探讨不同环节的研发领料规模。</li>
+<li><strong>样品处理</strong>：询问研发样品的产出、价值和处理方式。</li>
+</ul>
+<h2 id="四、财务访谈">四、财务访谈</h2>
+<p>财务访谈应侧重于了解费用归集分摊的具体规则。</p>
+<h3 id="访谈重点">访谈重点</h3>
+<ul>
+<li><strong>薪酬计入</strong>：明确哪些部门的薪酬计入研发费用。</li>
+<li><strong>职工福利费</strong>：了解职工福利费的归属判断方法。</li>
+<li><strong>折旧摊销</strong>：询问折旧摊销费对应的资产类别。</li>
+<li><strong>水电费分摊</strong>：了解水电费在不同部门间的分摊规则。</li>
+<li><strong>研发资本化</strong>：探讨公司判断研发费用资本化的会计政策。</li>
+</ul>
+<h2 id="五、开底稿">五、开底稿</h2>
+<p>费用类底稿的开设应基于对费用维度的清晰理解。</p>
+<h3 id="重分类">重分类</h3>
+<ul>
+<li><strong>重新分类</strong>：确保每笔费用按正确的维度分类，以便进行有效的对比分析。</li>
+</ul>
+<h3 id="维度分类">维度分类</h3>
+<ul>
+<li><strong>职工薪酬</strong>：包括工资、奖金、住房公积金等。</li>
+<li><strong>物料领用</strong>：关注物料领用是否专于研发活动。</li>
+<li><strong>技术服务费</strong>：审查外购服务的合理性和真实性。</li>
+</ul>
+<h3 id="风险点">风险点</h3>
+<ul>
+<li><strong>非研发人员薪酬</strong>：防止将非研发人员的薪酬计入研发费用。</li>
+<li><strong>虚构研发人员</strong>：验证研发人员的真实性和胜任能力。</li>
+<li><strong>薪酬分摊规则</strong>：评估研发人员薪酬在不同项目间的分摊是否合理。</li>
+</ul>
+<h2 id="六、资料需求">六、资料需求</h2>
+<p>审计过程中需要以下资料：</p>
 <ol>
-<li>石头</li>
-<li>剪刀</li>
-<li>布</li>
+<li><strong>工资计算分摊表</strong>：抽取特定月份，了解薪酬的计算和分摊。</li>
+<li><strong>员工花名册</strong>：包含员工的基本信息和职位。</li>
+<li><strong>研发费用分摊计算表</strong>：了解费用如何在不同研发项目间分摊。</li>
+<li><strong>绩效奖金及年终奖计算表</strong>：评估奖金计算的依据。</li>
+<li><strong>员工打卡记录</strong>：核实研发人员的出勤情况。</li>
 </ol>
-<hr>
-<p>如: 你的选择是【布】, 电脑的选择是【石头】<br>
-恭喜你获得了胜利！</p>
+<h2 id="七、设计审计程序">七、设计审计程序</h2>
+<p>审计程序应包括但不限于：</p>
+<h3 id="工资分摊查验">工资分摊查验</h3>
+<ul>
+<li><strong>筛选与匹配</strong>：筛选研发人员工资明细，并与花名册匹配以确认其部门和职务。</li>
+</ul>
+<h3 id="打卡情况查验">打卡情况查验</h3>
+<ul>
+<li><strong>考勤分析</strong>：分析研发人员的打卡记录，识别异常情况。</li>
+</ul>
+<h3 id="胜任能力查验">胜任能力查验</h3>
+<ul>
+<li><strong>简历与岗位JD对比</strong>：核实研发人员是否符合岗位要求。</li>
+</ul>
+<h3 id="分摊方式合理性">分摊方式合理性</h3>
+<ul>
+<li><strong>资本化项目薪酬</strong>：关注资本化项目薪酬的分摊是否影响利润。</li>
+</ul>
+<h3 id="绩效与年终奖复核">绩效与年终奖复核</h3>
+<ul>
+<li><strong>绩效奖金挂钩</strong>：了解绩效奖金与研发成果转化率的关系。</li>
+</ul>
+<h3 id="工资与社保公积金同向性">工资与社保公积金同向性</h3>
+<ul>
+<li><strong>增长幅度对比</strong>：比较工资与社保公积金的增长是否一致。</li>
+</ul>
+<h2 id="八、物料领用审计">八、物料领用审计</h2>
+<p>关注物料领用的合规性：</p>
+<h3 id="风险点-2">风险点</h3>
+<ul>
+<li><strong>非研发用途</strong>：防止非研发用途的出库计入研发费用。</li>
+<li><strong>研发与生产混同</strong>：避免研发与生产活动混淆。</li>
+<li><strong>研发样品处理</strong>：确保研发样品的处理方式正确。</li>
+</ul>
+<h3 id="审计程序">审计程序</h3>
+<ol>
+<li><strong>多维度分析</strong>：分析其他出库单的明细，确保领料用于研发活动。</li>
+<li><strong>研发台账查阅</strong>：了解物料领用后的流向和使用情况。</li>
+<li><strong>大批量打样确认</strong>：判断大批量打样是否属于生产活动。</li>
+</ol>
+<h2 id="九、技术服务费审计">九、技术服务费审计</h2>
+<p>审计技术服务费的合理性和真实性：</p>
+<h3 id="风险点-3">风险点</h3>
+<ul>
+<li><strong>服务契合度</strong>：外购研发服务是否与企业研发活动相契合。</li>
+<li><strong>费用真实性</strong>：验证费用是否真实发生，无利益输送。</li>
+<li><strong>费用完整性</strong>：确保费用确认无遗漏。</li>
+</ul>
+<h3 id="审计程序-2">审计程序</h3>
+<ol>
+<li><strong>合同查验</strong>：核实合同提供的服务与研发项目的相关性。</li>
+<li><strong>对比分析</strong>：分析技术服务费的比例与同行业公司是否一致。</li>
+<li><strong>背景调查</strong>：调查技术服务提供商的背景信息。</li>
+<li><strong>成果抽查</strong>：检查合同对应的成果支持和验收记录。</li>
+<li><strong>凭证抽查</strong>：核实后附原始单据的完整性和付款申请的合理性。</li>
+</ol>
 
                 
             </div>
@@ -703,7 +526,7 @@ n2 = random.uniform(50,100)
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="https://jrdit.github.io/2022/12/02/python-xue-xi-lie-biao/">https://jrdit.github.io/2022/12/02/python-xue-xi-lie-biao/</a>
+                    <a href="https://jrdit.github.io/2024/05/10/yan-fa-fei-yong-shen-ji/">https://jrdit.github.io/2024/05/10/yan-fa-fei-yong-shen-ji/</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -741,12 +564,12 @@ n2 = random.uniform(50,100)
                     
                         <div class="article-tag">
                             
-                                <a href="/tags/Python/">
-                                    <span class="chip bg-color">Python</span>
+                                <a href="/tags/%E5%AE%A1%E8%AE%A1/">
+                                    <span class="chip bg-color">审计</span>
                                 </a>
                             
-                                <a href="/tags/%E5%AD%A6%E4%B9%A0/">
-                                    <span class="chip bg-color">学习</span>
+                                <a href="/tags/%E7%A0%94%E5%8F%91%E8%B4%B9%E7%94%A8/">
+                                    <span class="chip bg-color">研发费用</span>
                                 </a>
                             
                         </div>
@@ -1096,13 +919,13 @@ n2 = random.uniform(50,100)
             <div class="article-badge left-badge text-color">
                 <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
             <div class="card">
-                <a href="/2023/09/23/ai-da-mo-xing-xian-zhuang-yu-wei-lai/">
+                <a href="/2024/05/10/ying-xiao-fei-yong-shen-ji/">
                     <div class="card-image">
                         
                         
-                        <img src="https://cdn.jsdelivr.net/gh/jrdit/jrdit.github.io/medias/featureimages/15.jpg" class="responsive-img" alt="AI大模型 - 现状与未来">
+                        <img src="https://cdn.jsdelivr.net/gh/jrdit/jrdit.github.io/medias/featureimages/14.jpg" class="responsive-img" alt="营销费用审计">
                         
-                        <span class="card-title">AI大模型 - 现状与未来</span>
+                        <span class="card-title">营销费用审计</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
@@ -1113,14 +936,14 @@ n2 = random.uniform(50,100)
                     </div>
                     <div class="publish-info">
                         <span class="publish-date">
-                            <i class="far fa-clock fa-fw icon-date"></i>2023-09-23
+                            <i class="far fa-clock fa-fw icon-date"></i>2024-05-10
                         </span>
                         <span class="publish-author">
                             
                             <i class="fas fa-bookmark fa-fw icon-category"></i>
                             
-                            <a href="/categories/Artificial-intelligence/" class="post-category">
-                                    Artificial intelligence
+                            <a href="/categories/Audit/" class="post-category">
+                                    Audit
                                 </a>
                             
                             
@@ -1130,12 +953,12 @@ n2 = random.uniform(50,100)
                 
                 <div class="card-action article-tags">
                     
-                    <a href="/tags/AI/">
-                        <span class="chip bg-color">AI</span>
+                    <a href="/tags/%E5%AE%A1%E8%AE%A1/">
+                        <span class="chip bg-color">审计</span>
                     </a>
                     
-                    <a href="/tags/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD/">
-                        <span class="chip bg-color">人工智能</span>
+                    <a href="/tags/%E8%90%A5%E9%94%80%E8%B4%B9%E7%94%A8/">
+                        <span class="chip bg-color">营销费用</span>
                     </a>
                     
                 </div>
@@ -1149,13 +972,13 @@ n2 = random.uniform(50,100)
                 下一篇&nbsp;<i class="fas fa-chevron-right"></i>
             </div>
             <div class="card">
-                <a href="/2022/12/02/nei-bu-shen-ji-wu-da-liu-cheng-yu-fang-fa/">
+                <a href="/2024/03/23/jiao-ni-kan-cai-bao-zhi-ying-shou-piao-ju/">
                     <div class="card-image">
                         
                         
-                        <img src="https://cdn.jsdelivr.net/gh/jrdit/jrdit.github.io/medias/featureimages/22.jpg" class="responsive-img" alt="内部审计五大流程与方法">
+                        <img src="https://cdn.jsdelivr.net/gh/jrdit/jrdit.github.io/medias/featureimages/23.jpg" class="responsive-img" alt="教你看财报——应收票据">
                         
-                        <span class="card-title">内部审计五大流程与方法</span>
+                        <span class="card-title">教你看财报——应收票据</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
@@ -1166,14 +989,14 @@ n2 = random.uniform(50,100)
                     </div>
                     <div class="publish-info">
                             <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2022-12-02
+                                <i class="far fa-clock fa-fw icon-date"></i>2024-03-23
                             </span>
                         <span class="publish-author">
                             
                             <i class="fas fa-bookmark fa-fw icon-category"></i>
                             
-                            <a href="/categories/Internal-Audit/" class="post-category">
-                                    Internal Audit
+                            <a href="/categories/Financial-statement/" class="post-category">
+                                    Financial statement
                                 </a>
                             
                             
@@ -1183,12 +1006,16 @@ n2 = random.uniform(50,100)
                 
                 <div class="card-action article-tags">
                     
-                    <a href="/tags/%E5%AD%A6%E4%B9%A0/">
-                        <span class="chip bg-color">学习</span>
+                    <a href="/tags/%E8%B5%84%E4%BA%A7%E8%B4%9F%E5%80%BA%E8%A1%A8/">
+                        <span class="chip bg-color">资产负债表</span>
                     </a>
                     
-                    <a href="/tags/%E5%86%85%E9%83%A8%E5%AE%A1%E8%AE%A1/">
-                        <span class="chip bg-color">内部审计</span>
+                    <a href="/tags/%E8%B4%A2%E5%8A%A1%E5%88%86%E6%9E%90/">
+                        <span class="chip bg-color">财务分析</span>
+                    </a>
+                    
+                    <a href="/tags/IPO/">
+                        <span class="chip bg-color">IPO</span>
                     </a>
                     
                 </div>
