@@ -594,7 +594,7 @@ header .go-back i {
 }
 
 @-webkit-keyframes rainbow {
-    
+
     0%,
     /* 100% {
         background: rgba(156, 39, 176, 0.75);
@@ -1829,76 +1829,21 @@ thead {
 }
 
 /*尾部样式*/
-/* 页脚基础样式 */
-.footer {
-    display: flex;           /* 使用Flexbox布局 */
-    align-items: center;     /* 垂直居中对齐 */
-    justify-content: space-between; /* 空间在各部分之间分配 */
-    padding: 10px 20px;      /* 添加内边距 */
-    background-color: #333;  /* 背景颜色 */
-    color: #fff;             /* 文字颜色 */
+footer {
+    padding-bottom: 1px;
 }
 
-/* 页脚图片样式 */
-.footer-left {
-    flex-shrink: 1;          /* 防止图片部分在小屏幕上缩小 */
-    text-align: left;        /* 图片左对齐 */
+footer .social-statis {
+    margin-top: 10px;
+    position: relative;
 }
 
-.footer-left img {
-    max-width: 100%;         /* 图片最大宽度为容器宽度 */
-    height: auto;            /* 高度自适应 */
+footer a {
+    color: #fff;
 }
 
-/* 版权信息样式 */
-.footer-center {
-    flex-grow: 2;            /* 版权信息部分可以扩展 */
-    text-align: center;      /* 文字居中对齐 */
-}
-
-.footer-center p {
-    margin: 0;               /* 移除段落的外边距 */
-    font-size: 0.9rem;      /* 字体大小 */
-}
-
-/* 社交链接样式 */
-.footer-right {
-    display:  flex;           /* 社交链接使用Flexbox布局 */
-    justify-content: flex-end; /* 社交链接右对齐 */
-    align-items: center;     /* 垂直居中对齐 */
-}
-
-.footer-right a {
-    margin-left: 10px;       /* 链接之间的间隔 */
-    font-size: 1.5rem;      /* 字体大小 */
-    color: #fff;            /* 字体颜色 */
-    text-decoration: none;   /* 移除下划线 */
-    transition: color 0.3s;  /* 颜色变化的过渡效果 */
-}
-
-.footer-right a:hover {
-    color: #42b983;         /* 鼠标悬浮时的颜色 */
-}
-
-/* 响应式设计 */
-@media (max-width: 768px) {
-    footer {
-        flex-direction: column; /* 在小屏幕上堆叠布局 */
-        align-items: center;
-        text-align: center;
-    }
-
-    .footer-left, .footer-center, .footer-right {
-        margin-bottom: 10px; /* 堆叠时各部分底部添加外边距 */
-    }
-
-    .footer-right {
-        justify-content: center; /* 社交链接居中对齐 */
-    }
-
-    .footer-right a {
-        margin: 0 5px; /* 调整小屏幕上链接的间隔 */
-    }
+footer .copy-right {
+    color: #dbdbdb;
 }
 
 /*搜索层样式*/
